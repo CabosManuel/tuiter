@@ -1,0 +1,28 @@
+:root {
+	--blue-gray: #15202b;
+	--green: #00ba7c;
+	--gray: #38444d;
+	--white: #f7f9f9;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}

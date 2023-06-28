@@ -1,0 +1,16 @@
+body {
+	background-color: var(--blue-gray);
+	color: var(--white);
+	font-size: 1.6rem;
+
+	display: flex;
+	flex-direction: row;
+}
+
+#sidebar {
+	min-width: 30px;
+	height: 100%;
+	display: flex;
+	background-color: red;
+	padding: 30px;
+}
