@@ -5,7 +5,7 @@ body {
 	color: var(--white);
 }
 
-#sidebar {
+.sidebar {
 	display: flex;
 	flex-direction: column;
 	width: 80px;
@@ -14,7 +14,7 @@ body {
 	margin: 10px;
 }
 
-#home {
+.home {
 	max-width: 600px;
 
 	border: 1px solid red;
@@ -25,32 +25,32 @@ h1 {
 }
 
 /* New tuit */
-#new-tuit {
+.new-tuit {
 
 	border: 1px solid blue;
 }
 
 
 /* Tuit */
-#tuit {
+.tuit {
 	display: flex;
 	border: 1px solid skyblue;
 }
 
-#tuit-pfp {
+.tuit-pfp {
 
 }
 
-#tuit-autor-data {
+.tuit-autor-data {
 	display: flex;
 	height: auto;
 	border: 1px solid green;
 }
 
-#tuit-text {
+.tuit-text {
 
 }
 
-#stats {
+.stats {
 	display: flex;
 }
