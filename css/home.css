@@ -5,15 +5,40 @@ body {
 	color: var(--white);
 }
 
+i {
+	border: 1px dotted gray;
+}
+
+/* Sidebar */
 .sidebar {
 	display: flex;
 	flex-direction: column;
 	width: 80px;
 	max-height: 100%;
 	padding: 10px;
+}
+
+.sidebar-icons {
 	margin: 10px;
 }
 
+.sidebar-icons > li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	
+	border: 1px solid purple;
+}
+
+.sidebar-icons > li > i {
+	/* width: 50px; */
+	/* height: 50px; */
+	height: fit-content;
+}
+
+/* Home */
 .home {
 	max-width: 600px;
 
@@ -26,7 +51,7 @@ h1 {
 
 /* New tuit */
 .new-tuit {
-
+	display: flex;
 	border: 1px solid blue;
 }
 
