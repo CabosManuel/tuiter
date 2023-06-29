@@ -23,29 +23,29 @@
 		<div>
 			<span id="tuiter-logo"><i class="fa-solid fa-dove fa-xl"></i></span>
 			<ul>
-				<li>
-					<span id="homei"><i class="fa-solid fa-house fa-xl"></i></span>
+				<li class="sidebar-icon">
+					<i class="fa-solid fa-house fa-xl"></i>
 				</li>
-				<li>
-					<span id="search"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+				<li class="sidebar-icon">
+					<i class="fa-solid fa-magnifying-glass fa-xl"></i>
 				</li>
-				<li>
-					<span id="notifications"><i class="fa-regular fa-bell"></i></span>
+				<li class="sidebar-icon">
+					<i class="fa-regular fa-bell fa-xl"></i>
 				</li>
-				<li>
-					<span id="message"><i class="fa-regular fa-envelope"></i></span>
+				<li class="sidebar-icon">
+					<i class="fa-regular fa-envelope fa-xl"></i>
 				</li>
-				<li>
-					<span id="profile"><i class="fa-regular fa-user"></i></span>
+				<li class="sidebar-icon">
+					<i class="fa-regular fa-user fa-xl"></i>
 				</li>
-				<li>
-					<span id="more"><i class="fa-solid fa-ellipsis"></i></span>
+				<li class="sidebar-icon">
+					<i class="fa-solid fa-ellipsis fa-xl"></i>
 				</li>
 			</ul>
 			<div>
 				<span>
 					<i class="fa-solid fa-plus"></i>
-					<i class="fa-solid fa-feather-pointed"></i>
+					<i class="fa-solid fa-feather-pointed fa-xl"></i>
 				</span>
 			</div>
 			<div>PFP</div>
@@ -59,16 +59,21 @@
 		</div>
 		
 		<div class="new-tuit">
-			<textarea cols="20" name="comments" rows="5">What is happening?!</textarea>
-			<div>
-				<span>img</span>
-				<span>gif</span>
-				<span>poll</span>
-				<span>emoji</span>
-				<span>schedule</span>
-				<span>maps</span>
+			<div class="new-tuit-pfp">
+				<img src="https://picsum.photos/100/100" alt="" width="100px" height="100px">
 			</div>
-			<input type="button" value="Tuit">
+			<div class="new-tuit-content">
+				<textarea cols="20" name="comments" rows="5">What is happening?!</textarea>
+					<div>
+						<span>image<i class="fa-regular fa-image"></i></span>
+						<span>gif</span>
+						<span>poll<i class="fa-solid fa-square-poll-horizontal"></i></span>
+						<span>emoji<i class="fa-regular fa-face-smile"></i></span>
+						<span>schedule<i class="fa-regular fa-calendar-plus"></i></span>
+						<span>map<i class="fa-solid fa-location-dot"></i></span>
+					</div>
+					<input type="button" value="Tuit">
+			</div>
 		</div>
 		
 		<div class="timeline">
