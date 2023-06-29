@@ -20,41 +20,45 @@
 	
 	<!-- Sidebar -->
 	<aside id="sidebar">
-		<span id="tuiter-logo"><i class="fa-solid fa-dove fa-xl"></i></span>
-		<ul>
-			<li>
-				<span id="home"><i class="fa-solid fa-house fa-xl"></i></span>
-			</li>
-			<li>
-				<span id="search"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
-			</li>
-			<li>
-				<span id="notifications"><i class="fa-regular fa-bell"></i></span>
-			</li>
-			<li>
-				<span id="message"><i class="fa-regular fa-envelope"></i></span>
-			</li>
-			<li>
-				<span id="profile"><i class="fa-regular fa-user"></i></span>
-			</li>
-			<li>
-				<span id="more"><i class="fa-solid fa-ellipsis"></i></span>
-			</li>
-		</ul>
 		<div>
-			<span>
-				<i class="fa-solid fa-plus"></i>
-				<i class="fa-solid fa-feather-pointed"></i>
-			</span>
+			<span id="tuiter-logo"><i class="fa-solid fa-dove fa-xl"></i></span>
+			<ul>
+				<li>
+					<span id="homei"><i class="fa-solid fa-house fa-xl"></i></span>
+				</li>
+				<li>
+					<span id="search"><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+				</li>
+				<li>
+					<span id="notifications"><i class="fa-regular fa-bell"></i></span>
+				</li>
+				<li>
+					<span id="message"><i class="fa-regular fa-envelope"></i></span>
+				</li>
+				<li>
+					<span id="profile"><i class="fa-regular fa-user"></i></span>
+				</li>
+				<li>
+					<span id="more"><i class="fa-solid fa-ellipsis"></i></span>
+				</li>
+			</ul>
+			<div>
+				<span>
+					<i class="fa-solid fa-plus"></i>
+					<i class="fa-solid fa-feather-pointed"></i>
+				</span>
+			</div>
+			<div>PFP</div>
 		</div>
-		<div>PFP</div>
 	</aside>
 
 	<main id="home">
 		<h1>Home</h1>
-		<div>For you</div>
+		<div id="tabs">
+			<div>Following</div>
+		</div>
 		
-		<div>
+		<div id="new-tuit">
 			<textarea cols="20" name="comments" rows="5">What is happening?!</textarea>
 			<div>
 				<span>img</span>
@@ -70,26 +74,32 @@
 		<div id="timeline">
 
 			<div id="tuit">
-				<div>PFP</div>
-				<div>
-					<div>Miguel Ángel Durán</d>
-					<div>@midudev - Jun 21</div>
-					<div>...</div>
+				<div id="tuit-pfp">
+					<img src="https://picsum.photos/100/100" alt="" width="100px" height="100px">
 				</div>
-				<p>
-					¡Figma para Visual Studio Code!
-	
-					Características de la extensión:
-					- Acceso a los recursos directamente en tu editor
-					- Autocompletado de tokens del diseño al código
-					- Enlaza tu código al diseño
-					- Comentarios en tiempo real de tu equipo
-				</p>
-				<div id="stats">
-					<div>COMM</div>
-					<div>RETU</div>
-					<div>LIKE</div>
-					<div>VIEW</div>
+				<div id="tuit-content">
+
+					<div id="tuit-autor-data">
+						<div>Miguel Ángel Durán</div>
+						<div>@midudev - Jun 21</div>
+						<div><i class="fa-solid fa-ellipsis"></i></div>
+					</div>
+					<p id="tuit-text">
+						¡Figma para Visual Studio Code!
+		
+						Características de la extensión:
+						- Acceso a los recursos directamente en tu editor
+						- Autocompletado de tokens del diseño al código
+						- Enlaza tu código al diseño
+						- Comentarios en tiempo real de tu equipo
+					</p>
+					<div id="stats">
+						<div><i class="fa-regular fa-message"></i></div>
+						<div><i class="fa-solid fa-retweet"></i></div>
+						<div><i class="fa-regular fa-heart"></i></div>
+						<div><i class="fa-solid fa-chart-column"></i></div>
+						<div><i class="fa-solid fa-share"></i></div>
+					</div>
 				</div>
 			</div>
 

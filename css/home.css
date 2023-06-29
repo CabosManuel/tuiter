@@ -1,21 +1,56 @@
 body {
+	display: flex;
+	font-size: 1.6rem;
 	background-color: var(--blue-gray);
 	color: var(--white);
-	font-size: 1.6rem;
-
-	display: flex;
-	flex-direction: row;
 }
 
 #sidebar {
 	display: flex;
+	flex-direction: column;
 	width: 80px;
 	max-height: 100%;
-	flex-direction: column;
 	padding: 10px;
 	margin: 10px;
 }
 
 #home {
 	max-width: 600px;
+
+	border: 1px solid red;
+}
+
+h1 {
+	font-size: 2.0rem;
+}
+
+/* New tuit */
+#new-tuit {
+
+	border: 1px solid blue;
+}
+
+
+/* Tuit */
+#tuit {
+	display: flex;
+	border: 1px solid skyblue;
+}
+
+#tuit-pfp {
+
+}
+
+#tuit-autor-data {
+	display: flex;
+	height: auto;
+	border: 1px solid green;
+}
+
+#tuit-text {
+
+}
+
+#stats {
+	display: flex;
 }
