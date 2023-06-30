@@ -1,25 +1,36 @@
-body {
-	display: flex;
-	font-size: 1.6rem;
-	background-color: var(--blue-gray);
-	color: var(--white);
-}
-
 i {
-	border: 1px dotted gray;
+	/* border: 1px dotted gray; */
 }
 
+/* ******* */
 /* Sidebar */
+/* ******* */
 .sidebar {
+	position: fixed;
 	display: flex;
 	flex-direction: column;
 	width: 80px;
-	max-height: 100%;
+	height: 100%;
+	margin-left: 80px;
 	padding: 10px;
 }
 
+.tuiter-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	margin: 0 8px;
+
+	/* border: 1px solid orange; */
+}
+
 .sidebar-icons {
-	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 20px 10px;
 }
 
 .sidebar-icons > li {
@@ -29,20 +40,59 @@ i {
 	width: 40px;
 	height: 40px;
 	
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 }
 
-.sidebar-icons > li > i {
-	/* width: 50px; */
-	/* height: 50px; */
-	height: fit-content;
+.btn-new-tuit-plus {
+	position: relative;
+	display: flex;
+	width: 45px;
+	height: 45px;
+	margin: 0 auto;
+	background-color: var(--green);
+	border-radius: 30px;
+
+	color: var(--white);
 }
 
+.btn-new-tuit-plus > i { position: absolute; }
+.btn-new-tuit-plus > .fa-plus {
+	top: 14px;
+	left: 10px;
+}
+
+.btn-new-tuit-plus > .fa-feather-pointed {
+	right: 10px;
+	top: 24px;
+}
+
+.pfp {
+	width: 36px;
+	height: 36px;
+	min-width: 36px;
+	min-height: 36px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.sidebar .pfp {
+	margin: auto auto 20px;
+}
+
+.pfp > img {
+	width: 100%;
+}
+
+/* **** */
 /* Home */
-.home {
+/* **** */
+main.home {
+	position: relative;
 	max-width: 600px;
+	margin-left: 160px;
 
-	border: 1px solid red;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
 }
 
 h1 {
