@@ -15,6 +15,9 @@
 
 	<!-- Font Awesome Icons -->
 	<script src="https://kit.fontawesome.com/626943258a.js" crossorigin="anonymous"></script>
+
+	<!-- Twiemoji -->
+	<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	
@@ -51,9 +54,17 @@
 	</aside>
 
 	<main class="home">
-		<h1>Home</h1>
-		<div class="tabs">
-			<div>Following</div>
+		<div class="home-header">
+			<h1>Home</h1>
+			<div class="tabs">
+				<div class="tab">
+					<span>Following</span>
+					<div class="highlight"></div>
+				</div>
+				<div class="tab">
+					<span>Favorites 🌠</span>
+				</div>
+			</div>
 		</div>
 		
 		<div class="new-tuit">
@@ -61,14 +72,31 @@
 				<img src="https://picsum.photos/100/100" alt="">
 			</div>
 			<div class="new-tuit-content">
-				<textarea cols="20" name="comments" rows="5">What is happening?!</textarea>
+				<textarea class="new-tuit-text" placeholder="What is happening?!"></textarea>
 					<div>
-						<span>image<i class="fa-regular fa-image"></i></span>
-						<span>gif</span>
-						<span>poll<i class="fa-solid fa-square-poll-horizontal"></i></span>
-						<span>emoji<i class="fa-regular fa-face-smile"></i></span>
-						<span>schedule<i class="fa-regular fa-calendar-plus"></i></span>
-						<span>map<i class="fa-solid fa-location-dot"></i></span>
+						<span>
+							<!-- image -->
+							<i class="fa-regular fa-image"></i>
+						</span>
+						<span>
+							<!-- gif -->
+						</span>
+						<span>
+							<!-- poll -->
+							<i class="fa-solid fa-square-poll-horizontal"></i>
+						</span>
+						<span>
+							<!-- emoji -->
+							<i class="fa-regular fa-face-smile"></i>
+						</span>
+						<span>
+							<!-- schedule -->
+							<i class="fa-regular fa-calendar-plus"></i>
+						</span>
+						<span>
+							<!-- map -->
+							<i class="fa-solid fa-location-dot"></i>
+						</span>
 					</div>
 					<input type="button" value="Tuit">
 			</div>
@@ -91,10 +119,160 @@
 						¡Figma para Visual Studio Code!
 		
 						Características de la extensión:
-						- Acceso a los recursos directamente en tu editor
-						- Autocompletado de tokens del diseño al código
-						- Enlaza tu código al diseño
-						- Comentarios en tiempo real de tu equipo
+						<br>- Acceso a los recursos directamente en tu editor
+						<br>- Autocompletado de tokens del diseño al código
+						<br>- Enlaza tu código al diseño
+						<br>- Comentarios en tiempo real de tu equipo
+					</p>
+					<div class="stats">
+						<div><i class="fa-regular fa-message"></i></div>
+						<div><i class="fa-solid fa-retweet"></i></div>
+						<div><i class="fa-regular fa-heart"></i></div>
+						<div><i class="fa-solid fa-chart-column"></i></div>
+						<div><i class="fa-solid fa-share"></i></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tuit">
+				<div class="pfp">
+					<img src="https://picsum.photos/100/100" alt="">
+				</div>
+				<div class="tuit-content">
+
+					<div class="tuit-autor-data">
+						<div>Miguel Ángel Durán</div>
+						<div>@midudev - Jun 21</div>
+						<div><i class="fa-solid fa-ellipsis"></i></div>
+					</div>
+					<p class="tuit-text">
+						¡Figma para Visual Studio Code!
+		
+						Características de la extensión:
+						<br>- Acceso a los recursos directamente en tu editor
+						<br>- Autocompletado de tokens del diseño al código
+						<br>- Enlaza tu código al diseño
+						<br>- Comentarios en tiempo real de tu equipo
+					</p>
+					<div class="stats">
+						<div><i class="fa-regular fa-message"></i></div>
+						<div><i class="fa-solid fa-retweet"></i></div>
+						<div><i class="fa-regular fa-heart"></i></div>
+						<div><i class="fa-solid fa-chart-column"></i></div>
+						<div><i class="fa-solid fa-share"></i></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tuit">
+				<div class="pfp">
+					<img src="https://picsum.photos/100/100" alt="">
+				</div>
+				<div class="tuit-content">
+
+					<div class="tuit-autor-data">
+						<div>Miguel Ángel Durán</div>
+						<div>@midudev - Jun 21</div>
+						<div><i class="fa-solid fa-ellipsis"></i></div>
+					</div>
+					<p class="tuit-text">
+						¡Figma para Visual Studio Code!
+		
+						Características de la extensión:
+						<br>- Acceso a los recursos directamente en tu editor
+						<br>- Autocompletado de tokens del diseño al código
+						<br>- Enlaza tu código al diseño
+						<br>- Comentarios en tiempo real de tu equipo
+					</p>
+					<div class="stats">
+						<div><i class="fa-regular fa-message"></i></div>
+						<div><i class="fa-solid fa-retweet"></i></div>
+						<div><i class="fa-regular fa-heart"></i></div>
+						<div><i class="fa-solid fa-chart-column"></i></div>
+						<div><i class="fa-solid fa-share"></i></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tuit">
+				<div class="pfp">
+					<img src="https://picsum.photos/100/100" alt="">
+				</div>
+				<div class="tuit-content">
+
+					<div class="tuit-autor-data">
+						<div>Miguel Ángel Durán</div>
+						<div>@midudev - Jun 21</div>
+						<div><i class="fa-solid fa-ellipsis"></i></div>
+					</div>
+					<p class="tuit-text">
+						¡Figma para Visual Studio Code!
+		
+						Características de la extensión:
+						<br>- Acceso a los recursos directamente en tu editor
+						<br>- Autocompletado de tokens del diseño al código
+						<br>- Enlaza tu código al diseño
+						<br>- Comentarios en tiempo real de tu equipo
+					</p>
+					<div class="stats">
+						<div><i class="fa-regular fa-message"></i></div>
+						<div><i class="fa-solid fa-retweet"></i></div>
+						<div><i class="fa-regular fa-heart"></i></div>
+						<div><i class="fa-solid fa-chart-column"></i></div>
+						<div><i class="fa-solid fa-share"></i></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tuit">
+				<div class="pfp">
+					<img src="https://picsum.photos/100/100" alt="">
+				</div>
+				<div class="tuit-content">
+
+					<div class="tuit-autor-data">
+						<div>Miguel Ángel Durán</div>
+						<div>@midudev - Jun 21</div>
+						<div><i class="fa-solid fa-ellipsis"></i></div>
+					</div>
+					<p class="tuit-text">
+						¡Figma para Visual Studio Code!
+		
+						Características de la extensión:
+						<br>- Acceso a los recursos directamente en tu editor
+						<br>- Autocompletado de tokens del diseño al código
+						<br>- Enlaza tu código al diseño
+						<br>- Comentarios en tiempo real de tu equipo
+					</p>
+					<div class="stats">
+						<div><i class="fa-regular fa-message"></i></div>
+						<div><i class="fa-solid fa-retweet"></i></div>
+						<div><i class="fa-regular fa-heart"></i></div>
+						<div><i class="fa-solid fa-chart-column"></i></div>
+						<div><i class="fa-solid fa-share"></i></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tuit">
+				<div class="pfp">
+					<img src="https://picsum.photos/100/100" alt="">
+				</div>
+				<div class="tuit-content">
+
+					<div class="tuit-autor-data">
+						<div>Miguel Ángel Durán</div>
+						<div>@midudev - Jun 21</div>
+						<div><i class="fa-solid fa-ellipsis"></i></div>
+					</div>
+					<p class="tuit-text">
+						¡Figma para Visual Studio Code!
+		
+						Características de la extensión:
+						<br>- Acceso a los recursos directamente en tu editor
+						<br>- Autocompletado de tokens del diseño al código
+						<br>- Enlaza tu código al diseño
+						<br>- Comentarios en tiempo real de tu equipo
 					</p>
 					<div class="stats">
 						<div><i class="fa-regular fa-message"></i></div>
@@ -110,5 +288,7 @@
 
 	</main>
 
+	<!-- Script for twemoji -->
+	<script>twemoji.parse(document.body)</script>
 </body>
 </html>

@@ -88,28 +88,90 @@ i {
 /* **** */
 main.home {
 	position: relative;
-	max-width: 600px;
+	width: var(--w-home);
+	max-width: var(--w-home);
 	margin-left: 160px;
+	
+	border-left: 1px solid var(--dark-gray);
+	border-right: 1px solid var(--dark-gray);
+}
 
-	border-left: 1px solid red;
-	border-right: 1px solid red;
+.home-header {
+	/* display: flex; */
+	position: fixed;
+	width: var(--w-home);
+	/* backdrop-filter: blur(15px); */
 }
 
 h1 {
 	font-size: 2.0rem;
+	margin: 10px;
+}
+
+.tabs {
+	width: 100%;
+	display: flex;
+	flex-basis: 100%;
+	font-weight: 700;
+	color: var(--gray);
+	border-bottom: 1px solid var(--dark-gray);
+}
+
+.tab {
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 10;
+	justify-content: center;
+  align-items: center;
+	padding: 10px 15px 0;
+}
+
+.tab>span { flex-grow: 1; }
+
+.highlight {
+	bottom: 1;
+	width: 70px;
+	height: 4px;
+	background-color: var(--green);
+	border-radius: 5px;
 }
 
 /* New tuit */
 .new-tuit {
 	display: flex;
-	border: 1px solid blue;
+	margin-top: 100px;
+	border: 1px solid var(--dark-gray);
+	/* border: 1px solid blue; */
 }
 
+.new-tuit-text {
+	width: 400px;
+	min-height: 50px;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	color: var(--white);
+	background-color: var(--blue-gray);
+	border-style: none;
+	border-color: Transparent;
+	outline: none;
+	resize: vertical;
+}
+
+.new-tuit-text::placeholder {
+	color: var(--gray);
+}
+
+/* Timeline */
+.timeline {
+	border: 1px solid var(--dark-gray);
+}
 
 /* Tuit */
 .tuit {
 	display: flex;
-	border: 1px solid skyblue;
+	/* border: 1px solid skyblue; */
 }
 
 .tuit-pfp {
