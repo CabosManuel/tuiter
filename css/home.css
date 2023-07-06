@@ -145,11 +145,17 @@ h1 {
 	border: 1px solid var(--dark-gray);
 }
 
+.new-tuit-content {
+	width: 100%;
+	padding: 15px 15px 0 10px;
+}
+
+.pfp { margin: 15px 10px; }
+
 .new-tuit-text {
-	width: 400px;
+	width: 100%;
 	min-height: 50px;
-	padding: 10px;
-	font-family: 'Roboto', sans-serif;
+	font-family: inherit;
 	font-size: 1.8rem;
 	color: var(--white);
 	background-color: var(--blue-gray);
@@ -157,6 +163,31 @@ h1 {
 	border-color: Transparent;
 	outline: none;
 	resize: vertical;
+}
+
+.new-tuit-buttons {
+	display: flex;
+	margin: 8px 0;
+	align-items: center;
+}
+
+.attachments {
+	display: flex;
+	flex-grow: 1;
+	gap: 16px;
+	color: var(--green);
+}
+
+.btn-tuit {
+	padding: 7px 16px;
+	background: var(--green);
+	font: inherit;
+	font-weight: 700;
+	color: inherit;
+	border-radius: 30px;
+	border: none;
+	outline: inherit;
+	cursor: pointer;
 }
 
 .new-tuit-text::placeholder {
@@ -167,7 +198,8 @@ h1 {
 /* Timeline */
 /* ******** */
 .timeline {
-	border: 1px solid var(--dark-gray);
+	border-left: 1px solid var(--dark-gray);
+	border-right: 1px solid var(--dark-gray);
 }
 
 /* **** */
