@@ -1,8 +1,10 @@
 :root {
+	--blue: #1D9BF0;
 	--blue-gray: #15202b;
+	--dark-gray: #38444d;
 	--green: #00ba7c;
 	--gray: #8b98a5;
-	--dark-gray: #38444d;
+	--pink: #F91880;
 	--white: #f7f9f9;
 	--w-home: 600px;
 	--m-sidebar: 160px;

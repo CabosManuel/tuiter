@@ -207,23 +207,58 @@ h1 {
 /* **** */
 .tuit {
 	display: flex;
-	/* border: 1px solid skyblue; */
+	font-size: 1.4rem;
+	border-bottom: 1px solid var(--dark-gray);
 }
 
-.tuit-pfp {
-
+.tuit-content {
+	width: 100%;
+	margin: 20px 15px 0 0;
 }
 
 .tuit-autor-data {
 	display: flex;
 	height: auto;
-	border: 1px solid green;
+	color: var(--gray);
 }
 
-.tuit-text {
+.autor-name a {
+	margin-right: 8px;
+	font-weight: 700;
+	color: var(--white);
+}
+.autor-name a:hover { text-decoration: underline; }
 
+.middle-dot { margin: 0 5px; }
+
+.tuit-autor-data > .options {
+	display: flex;
+	justify-content: end;
+	flex-grow: 1;
 }
 
 .stats {
 	display: flex;
+	margin: 10px 0;
+	gap: 60px;
+	font-size: 1.2rem;
+	color: var(--gray);
+}
+
+.stats div { cursor: pointer; }
+
+.stats div span {
+	margin-left: 8px;
+}
+
+.comments:hover, .views:hover, .share:hover {
+	color: var(--blue);
+}
+
+.retuits:hover {
+	color: var(--green);
+}
+
+.likes:hover {
+	color: var(--pink);
 }
